@@ -1,0 +1,43 @@
+/* color game css */
+BODY{
+    background:#232323;
+    color :white;
+}
+.select{
+    background:steelblue;
+}
+.square{
+    width:30%;
+    background:red;
+    float:left;
+    margin:1.6%;
+    padding-bottom: 30%;
+    border-radius: 50%;
+}
+
+#container{
+    max-width:600px;
+    margin:0 auto;
+}
+#white{
+    background:white;
+    text-align: center;
+    height: 30px;
+}
+#message{
+    color:black;
+}
+#colordisplay{
+    width: 20%;
+}
+#message{
+    display: inline-block;
+    width:20%;
+}
+#display{
+    text-align: center
+}
+#easy,#hard,#reset{
+    border: none;
+    height: 100%;
+}
